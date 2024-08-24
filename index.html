@@ -13,17 +13,22 @@
 <body>
     <h1 class="text-center pt-10 font-bold text-xl"> Hi, Im Using Daisy UI</h1>
     <!-- now let's design some buttons using daisyui -->
+    <button class="btn mr-3">Button</button>
+    <button class="btn btn-neutral mr-3">Neutral</button>
+    <button class="btn btn-primary mr-3">Primary</button>
+    <button class="btn btn-secondary mr-3">Secondary</button>
+    <button class="btn btn-accent mr-3">Accent</button>
+    <button class="btn btn-ghost mr-3">Ghost</button>
+    <button class="btn btn-link mr-3 mb-10">Link</button> <br>
 
-    
-        <button class="btn mr-3">Button</button>
-        <button class="btn btn-neutral mr-3">Neutral</button> 
-        <button class="btn btn-primary mr-3">Primary</button> 
-        <button class="btn btn-secondary mr-3">Secondary</button> 
-        <button class="btn btn-accent mr-3">Accent</button> 
-        <button class="btn btn-ghost mr-3">Ghost</button> 
-        <button class="btn btn-link mr-3">Link</button>
-    </div>
-
+    <!-- dropdown buttons -->
+    <details class="dropdown">
+        <summary class="btn m-1 bg-green-500 text-white">open or close</summary>
+        <ul class="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </details>
 </body>
 
 </html>
